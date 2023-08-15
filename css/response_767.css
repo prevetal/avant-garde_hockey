@@ -1,0 +1,317 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        bottom: -32px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__content > .f-button.is-close-btn,
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        top: 20px;
+        right: 20px;
+
+        width: 24px;
+        height: 24px;
+    }
+
+    .modal.fancybox__content > .f-button.is-close-btn svg,
+    .is-compact .fancybox__content > .f-button.is-close-btn svg
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .menu_btn .icon + .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 28px;
+        padding: 16px 20px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        font-size: 22px;
+
+        height: 56px;
+        padding: 0 15px;
+    }
+
+
+    .form .exp
+    {
+        font-size: 16px;
+
+        margin-top: 12px;
+    }
+
+
+    .form .submit
+    {
+        padding-top: 0;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 20px;
+
+        width: 100%;
+        height: 68px;
+    }
+
+
+
+    /*---------------
+        Mob. menu
+    ---------------*/
+    .mob_menu
+    {
+        padding: 120px 20px 40px;
+    }
+
+
+    .mob_menu .menu
+    {
+        font-size: 24px;
+    }
+
+
+    .mob_menu .phone
+    {
+        font-size: 20px;
+
+        margin-top: 40px;
+    }
+
+
+
+    /*--------------
+        Checkout
+    --------------*/
+    .checkout
+    {
+        padding: 24px;
+    }
+
+
+    .checkout .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .checkout .form .btn
+    {
+        font-size: 20px;
+
+        width: 100%;
+        height: 68px;
+        margin-top: 8px;
+    }
+
+
+    .checkout .error_text
+    {
+        font-size: 14px;
+
+        position: relative;
+        bottom: 0;
+
+        width: 100%;
+        margin: 20px 0 0;
+        padding: 4px 20px;
+
+        text-align: center;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 28px 20px 24px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    #cart_modal
+    {
+        padding: 20px;
+    }
+
+
+    #cart_modal .modal_title
+    {
+        font-size: 24px;
+
+        margin-bottom: 40px;
+    }
+
+
+
+    #cart_modal .product
+    {
+        padding: 20px 20px 20px 0;
+    }
+
+
+    #cart_modal .product .remove_btn
+    {
+        top: -11px;
+        right: -6px;
+
+        width: 21px;
+        height: 21px;
+    }
+
+    #cart_modal .product .remove_btn .icon
+    {
+        width: 11px;
+        height: 11px;
+    }
+
+
+    #cart_modal .product .thumb
+    {
+        width: 132px;
+        height: 140px;
+    }
+
+
+    #cart_modal .product .info
+    {
+        width: calc(100% - 152px);
+    }
+
+
+    #cart_modal .product .name
+    {
+        font-size: 20px;
+    }
+
+
+    #cart_modal .product .size
+    {
+        font-size: 15px;
+
+        margin-top: 8px;
+    }
+
+
+    #cart_modal .product .amount
+    {
+        margin-top: 8px;
+    }
+
+    #cart_modal .product .amount .label
+    {
+        font-size: 15px;
+
+        margin-right: 8px;
+    }
+
+
+    #cart_modal .product .price
+    {
+        font-size: 20px;
+
+        right: 20px;
+        bottom: 20px;
+    }
+
+
+    #cart_modal .total_price
+    {
+        font-size: 22px;
+
+        margin-top: 40px;
+    }
+
+
+    #cart_modal .checkout
+    {
+        margin-top: 40px;
+    }
+
+
+
+    #order_success_modal
+    {
+        padding: 40px;
+    }
+
+
+    #order_success_modal .number
+    {
+        margin-bottom: 8px;
+    }
+
+
+    #order_success_modal .title
+    {
+        font-size: 22px;
+    }
+
+
+    #order_success_modal .desc
+    {
+        font-size: 16px;
+
+        margin-top: 20px;
+    }
+
+
+    #order_success_modal .btn
+    {
+        font-size: 20px;
+
+        width: 156px;
+        height: 56px;
+    }
+}

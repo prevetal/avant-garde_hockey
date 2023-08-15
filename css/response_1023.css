@@ -1,0 +1,31 @@
+@media print,
+(max-width: 1023px)
+{
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .submit_btn
+    {
+        width: calc(50% - 12px);
+    }
+
+
+
+    /*--------------
+        Checkout
+    --------------*/
+    .checkout .form .btn
+    {
+        width: calc(50% - 12px);
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    #cart_modal
+    {
+        padding: 24px 40px 40px;
+    }
+}

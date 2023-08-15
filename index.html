@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#958369">
+		<meta name="theme-color" content="#958369">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="cont row">
+						<button class="menu_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+						</button>
+
+						<div class="logo">
+							<img src="images/logo.svg" alt="">
+						</div>
+
+						<button class="cart_btn modal_btn" data-modal="cart_modal">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+							<span class="count">3</span>
+						</button>
+					</div>
+				</header>
+
+
+				<sectio class="mob_menu">
+					<div class="cont">
+						<nav class="menu">
+							<div><a href="/">Джерси</a></div>
+							<div><a href="/">Футболки</a></div>
+							<div><a href="/">Атрибутика</a></div>
+							<div><a href="/">Сувениры</a></div>
+							<div><a href="/">Худи</a></div>
+						</nav>
+
+						<div class="phone">
+							<div class="label">Помощь по заказу</div>
+
+							<div class="val">
+								<div><a href="tel:+79136518778">+7 (913) 651-87-78</a></div>
+							</div>
+						</div>
+					</div>
+				</sectio>
+
+
+				<section class="products block">
+					<div class="block_head">
+						<div class="title">Джерси</div>
+					</div>
+
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="product">
+									<div class="thumb">
+										<div><img data-src="images/tmp/product_thumb.png" alt="" class="swiper-lazy"></div>
+
+										<div class="sizes">
+											<div class="label">Выберите размер</div>
+
+											<div class="vals">
+												<label>
+													<input type="radio" name="size1">
+													<div>XS</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size1">
+													<div>S</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size1">
+													<div>M</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size1">
+													<div>L</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size1">
+													<div>XL</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="info">
+										<div>
+											<div class="name">Джерси</div>
+											<div class="price">1 900 ₽</div>
+										</div>
+
+										<button class="buy_btn" data-type="ajax" data-src="product_modal.html">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="product">
+									<div class="thumb">
+										<div><img data-src="images/tmp/product_thumb.png" alt="" class="swiper-lazy"></div>
+
+										<div class="sizes">
+											<div class="label">Выберите размер</div>
+
+											<div class="vals">
+												<label>
+													<input type="radio" name="size2">
+													<div>XS</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size2">
+													<div>S</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size2">
+													<div>M</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size2">
+													<div>L</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size2">
+													<div>XL</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="info">
+										<div>
+											<div class="name">Джерси</div>
+											<div class="price">1 900 ₽</div>
+										</div>
+
+										<button class="buy_btn" data-type="ajax" data-src="product_modal.html">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="product">
+									<div class="thumb">
+										<div><img data-src="images/tmp/product_thumb.png" alt="" class="swiper-lazy"></div>
+
+										<div class="sizes">
+											<div class="label">Выберите размер</div>
+
+											<div class="vals">
+												<label>
+													<input type="radio" name="size3">
+													<div>XS</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size3">
+													<div>S</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size3">
+													<div>M</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size3">
+													<div>L</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size3">
+													<div>XL</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="info">
+										<div>
+											<div class="name">Джерси</div>
+											<div class="price">1 900 ₽</div>
+										</div>
+
+										<button class="buy_btn" data-type="ajax" data-src="product_modal.html">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="product">
+									<div class="thumb">
+										<div><img data-src="images/tmp/product_thumb.png" alt="" class="swiper-lazy"></div>
+
+										<div class="sizes">
+											<div class="label">Выберите размер</div>
+
+											<div class="vals">
+												<label>
+													<input type="radio" name="size4">
+													<div>XS</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size4">
+													<div>S</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size4">
+													<div>M</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size4">
+													<div>L</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size4">
+													<div>XL</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="info">
+										<div>
+											<div class="name">Джерси</div>
+											<div class="price">1 900 ₽</div>
+										</div>
+
+										<button class="buy_btn" data-type="ajax" data-src="product_modal.html">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="product">
+									<div class="thumb">
+										<div><img data-src="images/tmp/product_thumb.png" alt="" class="swiper-lazy"></div>
+
+										<div class="sizes">
+											<div class="label">Выберите размер</div>
+
+											<div class="vals">
+												<label>
+													<input type="radio" name="size5">
+													<div>XS</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size5">
+													<div>S</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size5">
+													<div>M</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size5">
+													<div>L</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size5">
+													<div>XL</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="info">
+										<div>
+											<div class="name">Джерси</div>
+											<div class="price">1 900 ₽</div>
+										</div>
+
+										<button class="buy_btn" data-type="ajax" data-src="product_modal.html">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-pagination"></div>
+					</div>
+				</section>
+
+
+				<section class="products block">
+					<div class="block_head">
+						<div class="title">Худи</div>
+					</div>
+
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="product">
+									<div class="thumb">
+										<div><img data-src="images/tmp/product_thumb.png" alt="" class="swiper-lazy"></div>
+
+										<div class="sizes">
+											<div class="label">Выберите размер</div>
+
+											<div class="vals">
+												<label>
+													<input type="radio" name="size1">
+													<div>XS</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size1">
+													<div>S</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size1">
+													<div>M</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size1">
+													<div>L</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size1">
+													<div>XL</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="info">
+										<div>
+											<div class="name">Джерси</div>
+											<div class="price">1 900 ₽</div>
+										</div>
+
+										<button class="buy_btn" data-type="ajax" data-src="product_modal.html">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="product">
+									<div class="thumb">
+										<div><img data-src="images/tmp/product_thumb.png" alt="" class="swiper-lazy"></div>
+
+										<div class="sizes">
+											<div class="label">Выберите размер</div>
+
+											<div class="vals">
+												<label>
+													<input type="radio" name="size2">
+													<div>XS</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size2">
+													<div>S</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size2">
+													<div>M</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size2">
+													<div>L</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size2">
+													<div>XL</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="info">
+										<div>
+											<div class="name">Джерси</div>
+											<div class="price">1 900 ₽</div>
+										</div>
+
+										<button class="buy_btn" data-type="ajax" data-src="product_modal.html">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="product">
+									<div class="thumb">
+										<div><img data-src="images/tmp/product_thumb.png" alt="" class="swiper-lazy"></div>
+
+										<div class="sizes">
+											<div class="label">Выберите размер</div>
+
+											<div class="vals">
+												<label>
+													<input type="radio" name="size3">
+													<div>XS</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size3">
+													<div>S</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size3">
+													<div>M</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size3">
+													<div>L</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size3">
+													<div>XL</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="info">
+										<div>
+											<div class="name">Джерси</div>
+											<div class="price">1 900 ₽</div>
+										</div>
+
+										<button class="buy_btn" data-type="ajax" data-src="product_modal.html">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="product">
+									<div class="thumb">
+										<div><img data-src="images/tmp/product_thumb.png" alt="" class="swiper-lazy"></div>
+
+										<div class="sizes">
+											<div class="label">Выберите размер</div>
+
+											<div class="vals">
+												<label>
+													<input type="radio" name="size4">
+													<div>XS</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size4">
+													<div>S</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size4">
+													<div>M</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size4">
+													<div>L</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size4">
+													<div>XL</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="info">
+										<div>
+											<div class="name">Джерси</div>
+											<div class="price">1 900 ₽</div>
+										</div>
+
+										<button class="buy_btn" data-type="ajax" data-src="product_modal.html">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="product">
+									<div class="thumb">
+										<div><img data-src="images/tmp/product_thumb.png" alt="" class="swiper-lazy"></div>
+
+										<div class="sizes">
+											<div class="label">Выберите размер</div>
+
+											<div class="vals">
+												<label>
+													<input type="radio" name="size5">
+													<div>XS</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size5">
+													<div>S</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size5">
+													<div>M</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size5">
+													<div>L</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size5">
+													<div>XL</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="info">
+										<div>
+											<div class="name">Джерси</div>
+											<div class="price">1 900 ₽</div>
+										</div>
+
+										<button class="buy_btn" data-type="ajax" data-src="product_modal.html">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-pagination"></div>
+					</div>
+				</section>
+
+
+				<section class="products block">
+					<div class="block_head">
+						<div class="title">Атрибутика</div>
+					</div>
+
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="product">
+									<div class="thumb">
+										<div><img data-src="images/tmp/product_thumb.png" alt="" class="swiper-lazy"></div>
+
+										<div class="sizes">
+											<div class="label">Выберите размер</div>
+
+											<div class="vals">
+												<label>
+													<input type="radio" name="size1">
+													<div>XS</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size1">
+													<div>S</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size1">
+													<div>M</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size1">
+													<div>L</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size1">
+													<div>XL</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="info">
+										<div>
+											<div class="name">Джерси</div>
+											<div class="price">1 900 ₽</div>
+										</div>
+
+										<button class="buy_btn" data-type="ajax" data-src="product_modal.html">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="product">
+									<div class="thumb">
+										<div><img data-src="images/tmp/product_thumb.png" alt="" class="swiper-lazy"></div>
+
+										<div class="sizes">
+											<div class="label">Выберите размер</div>
+
+											<div class="vals">
+												<label>
+													<input type="radio" name="size2">
+													<div>XS</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size2">
+													<div>S</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size2">
+													<div>M</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size2">
+													<div>L</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size2">
+													<div>XL</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="info">
+										<div>
+											<div class="name">Джерси</div>
+											<div class="price">1 900 ₽</div>
+										</div>
+
+										<button class="buy_btn" data-type="ajax" data-src="product_modal.html">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="product">
+									<div class="thumb">
+										<div><img data-src="images/tmp/product_thumb.png" alt="" class="swiper-lazy"></div>
+
+										<div class="sizes">
+											<div class="label">Выберите размер</div>
+
+											<div class="vals">
+												<label>
+													<input type="radio" name="size3">
+													<div>XS</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size3">
+													<div>S</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size3">
+													<div>M</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size3">
+													<div>L</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size3">
+													<div>XL</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="info">
+										<div>
+											<div class="name">Джерси</div>
+											<div class="price">1 900 ₽</div>
+										</div>
+
+										<button class="buy_btn" data-type="ajax" data-src="product_modal.html">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="product">
+									<div class="thumb">
+										<div><img data-src="images/tmp/product_thumb.png" alt="" class="swiper-lazy"></div>
+
+										<div class="sizes">
+											<div class="label">Выберите размер</div>
+
+											<div class="vals">
+												<label>
+													<input type="radio" name="size4">
+													<div>XS</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size4">
+													<div>S</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size4">
+													<div>M</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size4">
+													<div>L</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size4">
+													<div>XL</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="info">
+										<div>
+											<div class="name">Джерси</div>
+											<div class="price">1 900 ₽</div>
+										</div>
+
+										<button class="buy_btn" data-type="ajax" data-src="product_modal.html">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="product">
+									<div class="thumb">
+										<div><img data-src="images/tmp/product_thumb.png" alt="" class="swiper-lazy"></div>
+
+										<div class="sizes">
+											<div class="label">Выберите размер</div>
+
+											<div class="vals">
+												<label>
+													<input type="radio" name="size5">
+													<div>XS</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size5">
+													<div>S</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size5">
+													<div>M</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size5">
+													<div>L</div>
+												</label>
+
+												<label>
+													<input type="radio" name="size5">
+													<div>XL</div>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="info">
+										<div>
+											<div class="name">Джерси</div>
+											<div class="price">1 900 ₽</div>
+										</div>
+
+										<button class="buy_btn" data-type="ajax" data-src="product_modal.html">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-pagination"></div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="logo">
+						<img src="images/logo.svg" alt="">
+					</div>
+
+					<div class="phone">
+						<div class="label">Помощь по заказу</div>
+
+						<div class="val">
+							<div><a href="tel:+79136518778">+7 (913) 651-87-78</a></div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+
+		<section class="modal" id="cart_modal">
+			<div class="modal_title">Корзина</div>
+
+			<div class="product">
+				<button class="remove_btn">
+					<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+				</button>
+
+				<div class="thumb">
+					<img src="images/tmp/cart_product_thumb.png" alt="">
+				</div>
+
+				<div class="info">
+					<div class="name">Худи красное</div>
+
+					<div class="size">размер: <span>50</span></div>
+
+					<div class="amount">
+						<div class="label">количество:</div>
+
+						<div class="box">
+							<button type="button" class="minus btn">-</button>
+
+							<input type="text" value="1" class="input"
+							  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+							<button type="button" class="plus btn">+</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="price">2 500 ₽</div>
+			</div>
+
+			<div class="product">
+				<button class="remove_btn">
+					<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+				</button>
+
+				<div class="thumb">
+					<img src="images/tmp/cart_product_thumb.png" alt="">
+				</div>
+
+				<div class="info">
+					<div class="name">Худи красное</div>
+
+					<div class="size">размер: <span>50</span></div>
+
+					<div class="amount">
+						<div class="label">количество:</div>
+
+						<div class="box">
+							<button type="button" class="minus btn">-</button>
+
+							<input type="text" value="1" class="input"
+							  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+							<button type="button" class="plus btn">+</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="price">2 500 ₽</div>
+			</div>
+
+			<div class="total_price">ИТОГО: <span>5 000 ₽</span></div>
+
+			<div class="checkout">
+				<div class="title">Ложа 112</div>
+
+				<form action="" class="form">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input" placeholder="Как к Вам обращаться*">
+							<!-- <input type="text" name="" value="" class="input error" placeholder="Как к Вам обращаться*"> -->
+						</div>
+
+						<div class="exp">*обязательно для заполнения</div>
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">Оформить заказ</button>
+
+						<button type="button" class="btn close_btn">Продолжить покупки</button>
+					</div>
+
+					<div class="error_text">для оформления заказа заполните поле</div>
+				</form>
+			</div>
+		</section>
+
+
+		<section class="modal" id="order_success_modal">
+			<div class="number">Заказ № 3245</div>
+
+			<div class="title">Ваш заказ успешно оформлен!</div>
+
+			<div class="desc">Время исполнения заказа 15 минут<br> По всем остальным вопросам обращаться к хостес</div>
+
+			<button class="btn close_btn">ОК</button>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.6.3.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
